@@ -8,11 +8,13 @@
 #include <bits/stdc++.h>
 #include <vector>
 
-extern std::string taskName , taskDescription , confirm , userInput;
-
 extern std::vector<std::string> taskVector;
 
+extern std::string taskName , taskDescription , confirm , userInput;
+
 extern int numTasks;
+
+extern int taskCount();
 
 extern void helpUser();
 
@@ -25,7 +27,5 @@ extern void removeTaskFunc();
 extern void addAllToVect();
 
 extern void addToVect();
-
-extern int taskCount();
 
 #endif
